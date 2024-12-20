@@ -8,7 +8,7 @@ import memories from './images/memories.png';
 import useStyles from './styles';
 
 const theme = createTheme({
-    spacing: 8, // Можно настроить, если нужно
+    spacing: 0, // Можно настроить, если нужно
   });
 
 const App = () => {

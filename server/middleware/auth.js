@@ -4,7 +4,7 @@ const secret = 'test';
 
 const auth = async (req, res, next) => {
   try {
-    const authHeader = req.headers.Authorization;
+    const authHeader = req.headers.authorization;
 
     // Проверка на наличие заголовка Authorization
     if (!authHeader) {
